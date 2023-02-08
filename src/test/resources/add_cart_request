@@ -1,0 +1,20 @@
+curl 'https://demowebshop.tricentis.com/addproducttocart/details/74/1' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: ru,en;q=0.9' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: Nop.customer=5c3bc183-9da7-48a2-8096-d6b984d35e60; ARRAffinity=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; ARRAffinitySameSite=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; __utma=78382081.958697558.1675860661.1675860661.1675860661.1; __utmc=78382081; __utmz=78382081.1675860661.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __RequestVerificationToken=jlAG2Di2Oevs9EXvwytp-7aQRH2hXHqUUL8QTKiE6Q9Kse6GlVKQJvo547zlJgxGhHASiJujNY1FUWgw1EL0kTW6a8cgl5g-gNS0csBWKsE1; __utmt=1; NOPCOMMERCE.AUTH=9A808237CA30E62C3C9916AE2FC3A416392E64172555C4551FB32DA74D6D18DEB8824E18D4ABC750F7D24ACF9760039218F73AC7CEA21B51DF5A5F1870E4727A1DF782A8BCB982114029BCDC77277CF65DF9AE480367618320C67CDE7E0179E01AD8898478D33305E43A299B2322152D63DBD23D34637F1FC2922D0CCA752E4E; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=74; __atuvc=1%7C6; __atuvs=63e39f84c4f79b3d000; __utmb=78382081.7.10.1675860661' \
+  -H 'Origin: https://demowebshop.tricentis.com' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://demowebshop.tricentis.com/build-your-own-expensive-computer-2' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.928 Yowser/2.5 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw 'product_attribute_74_5_26=82&product_attribute_74_6_27=83&product_attribute_74_3_28=86&product_attribute_74_8_29=89&addtocart_74.EnteredQuantity=1' \
+  --compressed
