@@ -3,12 +3,13 @@ package tests;
 import lombok.LombokUserData;
 import models.UserData;
 import org.junit.jupiter.api.Test;
+import specs.Specs;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/*public class UserTest {
+public class UserTest {
     @Test
     void singleUser() {
         // @formatter:off
@@ -78,4 +79,3 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         // @formatter:on
     }
 }
-*/
